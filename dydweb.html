@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Enlace al CSS de Bootstrap desde CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+        <!-- Uso una hoja de estilos personal para personalizar colores -->
+        <link rel="stylesheet" href="estilos.css">
+        <title>Materias</title>
+    </head>
+    <body>
+        <header>
+            <!-- Barra de navegación responsive Bootstrap -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">Cuatrimestre 2025</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link menu" href="index.html">Home</a>
+                      <a class="nav-link active" id="activo" aria-current="page" href="materias.html">Materias</a>
+                      <a class="nav-link menu" href="avisos.html">Avisos</a>
+                      <a class="nav-link menu" href="sobremi.html">Sobre mí</a>
+                      <a class="nav-link menu" href="contacto.html">Contacto</a>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+            <!-- Título de la página -->
+            <h1>Diseño y Desarrollo Web</h1>
+        </header>
+        <main>
+            <!-- Contenido principal -->
+            <div class="container">
+                <!-- Diseño grid con Bootstrap -->
+                <div class="row">
+                    <!-- Primera columna -->
+                    <div class="col">
+                        <!-- Primer elemento de la columna -->
+                        <div>
+                            <h2>Fechas de exámenes</h2>
+                            <table class="table table-bordered"> 
+                                <tr>
+                                    <th>Exámen</th>
+                                    <th>Fecha</th>
+                                </tr>
+                                <tr>
+                                    <td>Primer parcial</td>
+                                    <td>25 de abril</td>
+                                </tr>
+                                <tr>
+                                    <td>Segundo parcial</td>
+                                    <td>13 de junio</td>
+                                </tr>
+                                <tr>
+                                    <td>Recuperatorio/Final adelantado</td>
+                                    <td>4 de julio</td>
+                                </tr>
+                                <tr>
+                                    <td>Final regular</td>
+                                    <td>18 de julio</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!-- Segundo elemento de la columna -->
+                        <div>
+                            <h2>Bibliografía</h2>
+                            <ul>
+                                <li>
+                                    <a href="https://www.w3schools.com" target="_blank" class="enlace" title="W3 School" >W3 Schools</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.aluracursos.com/blog/github-pages" class="enlace" target="_blank" title="Cómo activar un proyecto en GitHub">Cómo activar un proyecto en GitHub</a>
+                                </li>
+                                <li>
+                                    <a href="https://agenciaciscar.com/estructura-de-un-sitio-web/" class="enlace" target="_blank" title="Estructura de un sitio web">Estructura de un sitio web</a>
+                                </li>
+                                <li>
+                                    <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" class="enlace" target="_blank" title="Bootstrap">Docs de Bootstrap</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Segunda columna -->
+                    <div class="col">
+                        <h2>Actividades UVA</h2>
+                        <h3>UVA 1</h3>
+                        <ul>
+                            <li>
+                                <a href="https://lucia-herreros.github.io/UVA1TP1/" class="enlace" target="_blank">Introducción HTML</a>
+                            </li>
+                            <li>
+                                <a href="https://lucia-herreros.github.io/UVA1TP2/" class="enlace" target="_blank">Etiquetas HTML</a>
+                            </li>
+                            <li>
+                                <a href="https://lucia-herreros.github.io/UVA1TP3/" class="enlace" target="_blank">Ejercicio integrador</a>
+                            </li>
+                        </ul>
+                        <h3>UVA 2</h3>
+                        <ul>
+                            <li>
+                                <a href="https://lucia-herreros.github.io/UVA2TP1/" class="enlace" target="_blank">Formato de texto</a>
+                            </li>
+                            <li>
+                                <a href="https://lucia-herreros.github.io/UVA2TP2/" class="enlace" target="_blank">Formato de cajas</a>
+                            </li>
+                            <li>
+                                <a href="https://lucia-herreros.github.io/UVA2TP4/" class="enlace" target="_blank">Unidades de medida</a>
+                            </li>
+                            <li>
+                                <a href="https://lucia-herreros.github.io/UVA2TP3/" class="enlace" target="_blank">Grid y Flexbox</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Curso: Diseño y Desarrollo Web (15130)</p>
+            <p>Profesora: Patricia Litovicius</p>
+        </footer>
+    </body>
+</html>

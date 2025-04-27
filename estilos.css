@@ -1,0 +1,83 @@
+h1 {
+    color: #01447E;
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    padding: 20px 10px 10px 10px;
+    color: #E4785F;
+}
+
+h3 {
+    padding: 10px;
+    color: #01447E; 
+}
+
+h5 {
+    color: #01447E; 
+}
+
+nav {
+    background-color: #01447E;
+}
+
+.navbar-brand {
+    color: #ECBAA8;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #E4785F;
+}
+
+#activo {
+    color: #E4785F;
+}
+
+.menu {
+    color: #EBE9E1;
+}
+
+.menu:hover {
+    color: #E4785F;
+}
+
+.enlace {
+    text-decoration: none;
+    color: #E4785F;
+}
+
+.enlace:hover {
+    color: #01447E;
+}
+
+li {
+    color: #01447E; 
+}
+
+.btn {
+    background-color: #E4785F;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #ECBAA8;
+    color: white;
+}
+
+.table th {
+    color: #E4785F;
+}
+
+footer {
+    background-color: #01447E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0px 0px 0px;
+}
+
+
+
